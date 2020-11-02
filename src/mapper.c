@@ -206,6 +206,7 @@ int main(int argc, char *argv[]) {
 		if(retChunk == NULL) {
 			break;
 		}
+    
 		count++;
 		strcpy(chunkData, retChunk);
 		free(retChunk);
